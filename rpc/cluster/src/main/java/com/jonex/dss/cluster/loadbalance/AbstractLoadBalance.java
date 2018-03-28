@@ -22,7 +22,7 @@ import java.util.List;
  *
  * </pre>
  */
-public abstract class AbstractLoadBalance extends Named implements LoadBalance{
+public abstract class AbstractLoadBalance<T> extends Named implements LoadBalance<T>{
 
     public AbstractLoadBalance() {
         super("");
@@ -34,14 +34,14 @@ public abstract class AbstractLoadBalance extends Named implements LoadBalance{
 
 
     @Override
-    public Provider select(List<Provider> providerList, Supplier supplier) {
+    public <T> Provider<T> select(List<Provider<T>> providerList, Supplier supplier) {
         if (providerList != null && providerList.size() != 0) {
             return (providerList.size()==1) ? providerList.get(0) : this.doSelect(providerList, supplier);
         }
         return null;
     }
 
-    protected abstract  Provider doSelect(List<Provider> providerList, Supplier supplier);
+    protected abstract <T> Provider<T> doSelect(List<Provider<T>> providerList, Supplier supplier);
 
     protected int getWeight(Provider provider, Supplier supplier){
 

@@ -11,7 +11,7 @@ import java.util.List;
 public class RoundRobinLoadBalance extends AbstractLoadBalance{
 
     @Override
-    protected Provider doSelect(List<Provider> providerList, Supplier supplier) {
+    protected Provider doSelect(List list, Supplier supplier) {
         return null;
     }
 }

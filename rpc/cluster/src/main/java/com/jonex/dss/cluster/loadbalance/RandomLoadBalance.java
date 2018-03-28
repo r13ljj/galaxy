@@ -33,7 +33,7 @@ public class RandomLoadBalance extends AbstractLoadBalance {
     }
 
     @Override
-    protected Provider doSelect(List<Provider> providerList, Supplier supplier) {
+    protected Provider doSelect(List providerList, Supplier supplier) {
         int length = providerList.size();
         int totalWeight = 0;
         boolean sameWeight = true;
@@ -41,24 +41,24 @@ public class RandomLoadBalance extends AbstractLoadBalance {
         int offset;
         int w;
         for(offset=0; offset < length; ++offset){
-            w = super.getWeight(providerList.get(offset), supplier);
+            w = super.getWeight((Provider)providerList.get(offset), supplier);
             totalWeight += w;
             if (sameWeight
                     && offset > 0
-                    && w != super.getWeight(providerList.get(offset-1), supplier)){
+                    && w != super.getWeight((Provider)providerList.get(offset-1), supplier)){
                 sameWeight = false;
             }
         }
         if (totalWeight > 0 && !sameWeight){
             offset = this.random.nextInt(totalWeight);
             for(w=0; w<length; w++){
-                offset -= super.getWeight(providerList.get(w), supplier);
+                offset -= super.getWeight((Provider)providerList.get(w), supplier);
                 //if weight greate than random
                 if (offset < 0){
-                    return providerList.get(w);
+                    return (Provider)providerList.get(w);
                 }
             }
         }
-        return providerList.get(random.nextInt(length));
+        return (Provider)providerList.get(random.nextInt(length));
     }
 }
