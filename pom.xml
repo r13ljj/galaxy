@@ -18,6 +18,7 @@
         <module>monitor</module>
         <module>admin</module>
         <module>remoting</module>
+        <module>log</module>
     </modules>
 
 
