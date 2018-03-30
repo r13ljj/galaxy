@@ -35,6 +35,7 @@ public class NioSocketServer {
     public static void main(String[] args) throws IOException {
         System.out.println("server started...");
         new NioSocketServer().start();
+        System.out.println("server stoped...");
     }
 
     public void start() throws IOException {
@@ -42,7 +43,7 @@ public class NioSocketServer {
         ServerSocketChannel channel = ServerSocketChannel.open();
         // 打开服务器套接字通道
         channel.configureBlocking(false);
-        // 进行服务的绑定
+        // 进行服务的绑定 server bind address
         channel.bind(new InetSocketAddress("localhost", 8001));
         // 通过open()方法找到Selector
         selector = Selector.open();
@@ -57,20 +58,32 @@ public class NioSocketServer {
                 if (!key.isValid()){
                     continue;
                 }
-                if ((key.readyOps() & SelectionKey.OP_ACCEPT) != 0){
-                    accept(key);
-                }else if ((key.readyOps() & SelectionKey.OP_READ) != 0){
-                    read(key);
-                }else if ((key.readyOps() & SelectionKey.OP_WRITE) != 0){
-                    write(key);
+                try {
+                    if ((key.readyOps() & SelectionKey.OP_ACCEPT) != 0){
+                        accept(key);
+                    }else if ((key.readyOps() & SelectionKey.OP_READ) != 0){
+                        read(key);
+                    }else if ((key.readyOps() & SelectionKey.OP_WRITE) != 0){
+                        write(key);
+                        try {
+                            Thread.sleep(10);
+                            return;
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
+                //该事件已经处理，可以丢弃
+                it.remove();
             }
         }
     }
 
     private void write(SelectionKey key) throws IOException, ClosedChannelException {
         SocketChannel clientChannel = (SocketChannel) key.channel();
-        System.out.println(String.format("server send message:%1$s to client[%2$s]", message, clientChannel.getLocalAddress()));        sendBuffer.clear();
+        System.out.println(String.format("server send message:%1$s to client[%2$s]", message, clientChannel.getRemoteAddress()));        sendBuffer.clear();
         sendBuffer.put(message.getBytes(Charset.forName("UTF-8")));
         sendBuffer.flip();
         clientChannel.write(sendBuffer);
@@ -88,21 +101,23 @@ public class NioSocketServer {
         } catch (IOException e) {
             // The remote forcibly closed the connection, cancel
             // the selection key and close the channel.
+            e.printStackTrace();
             key.cancel();
             clientChannel.close();
         }
 
         String str = new String(readBuffer.array(), 0, readNum);
-        System.out.println(String.format("server receive client[%1$s] message:%2$s", clientChannel.getLocalAddress(), str));
-       //client channel register writer
+        System.out.println(String.format("server receive client[%1$s] message:%2$s", clientChannel.getRemoteAddress(), str));
+        //client channel register writer
         clientChannel.register(selector, SelectionKey.OP_WRITE);
     }
 
     private void accept(SelectionKey key) throws IOException {
         ServerSocketChannel serverSocketChannel = (ServerSocketChannel)key.channel();
-        serverSocketChannel.configureBlocking(false);
         //server channel accept client channel
         SocketChannel clientSocketChannel = serverSocketChannel.accept();
+        //set client channel non block
+        clientSocketChannel.configureBlocking(false);
         //client channel register read
         clientSocketChannel.register(selector, SelectionKey.OP_READ);
         System.out.println("a new client connected "+clientSocketChannel.getRemoteAddress());
