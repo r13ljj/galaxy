@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/remoting/src/test/java/nio/PooledNioSocketClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/remoting/src/test/java/nio/PooledTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/src/test/java/nio/NioSocketClient.java" afterPath="$PROJECT_DIR$/remoting/src/test/java/nio/NioSocketClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remoting/src/test/java/nio/NioSocketServer.java" afterPath="$PROJECT_DIR$/remoting/src/test/java/nio/NioSocketServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -77,8 +72,8 @@
       <file leaf-file-name="PooledTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/remoting/src/test/java/nio/PooledTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -129,16 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketDispatcher.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/sun/nio/ch/SocketDispatcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,8 +158,8 @@
       <find>printStackTrace</find>
       <find>static</find>
       <find>ConcurrentLinkedDeque</find>
-      <find>a new client</find>
       <find>registed</find>
+      <find>a new client</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,6 +241,40 @@
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="registry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,15 +302,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="remoting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -530,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522216909119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete discard class">
+      <created>1522399379664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522399379664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -544,7 +561,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -554,12 +570,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5191898" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.48081023" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.48081023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -579,7 +595,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update loadbalance" />
-    <option name="LAST_COMMIT_MESSAGE" value="update loadbalance" />
+    <MESSAGE value="delete discard class" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete discard class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/jonex/dss/remoting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/remoting/src/test/java/nio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -922,12 +931,12 @@
         <state relative-caret-position="341">
           <caret line="291" column="7" lean-forward="true" selection-start-line="291" selection-start-column="7" selection-end-line="291" selection-end-column="7" />
           <folding>
-            <element signature="e#11552#11553#0" expanded="true" />
-            <element signature="e#11603#11604#0" expanded="true" />
-            <element signature="e#12381#12382#0" expanded="true" />
-            <element signature="e#12434#12435#0" expanded="true" />
-            <element signature="e#13176#13177#0" expanded="true" />
-            <element signature="e#13228#13229#0" expanded="true" />
+            <element signature="e#11552#11553#0" expanded="false" />
+            <element signature="e#11603#11604#0" expanded="false" />
+            <element signature="e#12381#12382#0" expanded="false" />
+            <element signature="e#12434#12435#0" expanded="false" />
+            <element signature="e#13176#13177#0" expanded="false" />
+            <element signature="e#13228#13229#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,8 +970,8 @@
         <state relative-caret-position="279">
           <caret line="136" column="18" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="18" />
           <folding>
-            <element signature="e#7030#7031#0" expanded="true" />
-            <element signature="e#7093#7094#0" expanded="true" />
+            <element signature="e#7030#7031#0" expanded="false" />
+            <element signature="e#7093#7094#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1042,10 +1051,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/remoting/src/main/java/com/jonex/dss/remoting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/remoting/src/test/java/nio/PooledTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="143">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
