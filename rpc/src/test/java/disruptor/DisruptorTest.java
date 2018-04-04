@@ -54,8 +54,8 @@ public class DisruptorTest {
     }
 
     public void doSome(DssEventExecutor eventExecutor){
-        //long sequence = buffer.next();
-        //System.out.println("do some sequence:"+sequence);
+        long cursor = buffer.getCursor();
+        System.out.println("do some cursor:"+cursor);
         try {
             disruptor.publishEvent(translator, eventExecutor);
         } finally {
@@ -100,7 +100,7 @@ public class DisruptorTest {
 
         public void run() {
             try {
-                Thread.sleep(30000);
+                Thread.sleep(300);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
