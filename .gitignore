@@ -1,9 +1,16 @@
-nothing
+#nothing
+target/
 */target/
+.idea/
 */.idea
+.settings/
 */.settings
 
 .classpath
+*.classpath
 .project
+*.project
 .class
+*.class
 .iml
+*.iml
