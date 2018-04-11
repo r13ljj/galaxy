@@ -11,5 +11,13 @@
 
     <artifactId>registry</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.9</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
