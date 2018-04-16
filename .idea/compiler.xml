@@ -18,16 +18,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="admin" target="1.5" />
+      <module name="admin" target="8" />
       <module name="cluster" target="1.8" />
-      <module name="common" target="1.5" />
-      <module name="config" target="1.5" />
-      <module name="galaxy" target="1.5" />
-      <module name="log" target="1.5" />
-      <module name="monitor" target="1.5" />
-      <module name="registry" target="1.5" />
-      <module name="remoting" target="1.5" />
-      <module name="rpc" target="1.5" />
+      <module name="common" target="8" />
+      <module name="config" target="8" />
+      <module name="galaxy" target="8" />
+      <module name="log" target="8" />
+      <module name="monitor" target="8" />
+      <module name="registry" target="8" />
+      <module name="remoting" target="8" />
+      <module name="rpc" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
