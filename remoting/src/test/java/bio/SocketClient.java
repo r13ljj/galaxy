@@ -1,7 +1,7 @@
-/**
+package bio; /**
  * <pre>
  *
- *  File: SocketClient.java
+ *  File: bio.SocketClient.java
  *
  *  Copyright (c) 2018, globalegrow.com All Rights Reserved.
  *
