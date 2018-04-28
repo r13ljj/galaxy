@@ -128,6 +128,7 @@ public class HexString {
         System.out.println(str1.length());
         System.out.println(str1.getBytes().length);
         System.out.println("123");
+        System.out.println("4565");
     }
 
 }

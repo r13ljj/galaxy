@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="add log module">
-      <change afterPath="$PROJECT_DIR$/remoting/src/test/java/HexString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting/src/test/java/HexString.java" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/src/test/java/HexString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="HexString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/remoting/src/test/java/HexString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+            <state relative-caret-position="293">
+              <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -180,6 +179,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -623,8 +627,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5191898" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32934782" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48081023" visible="true" weight="0.535461" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2167756" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" weight="0.535461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21631205" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.29285714" />
@@ -1070,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remoting/src/test/java/HexString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+        <state relative-caret-position="293">
+          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
         </state>
       </provider>
     </entry>
