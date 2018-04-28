@@ -127,7 +127,10 @@ public class HexString {
         String str1 = "{\\\"index\\\":{\\\"number_of_replicas\\\":2,\\\"max_result_window\\\":100000,\\\"analysis\\\":{\\\"char_filter\\\":{\\\"special_char_replace_filter\\\":{\\\"type\\\":\\\"pattern_replace\\\",\\\"pattern\\\":\\\"_\\\",\\\"replacement\\\":\\\" \\\"},\\\"whitespace_replace_filter\\\":{\\\"pattern\\\":\\\" \\\",\\\"type\\\":\\\"pattern_replace\\\",\\\"replacement\\\":\\\"\\\"}},\\\"filter\\\":{\\\"shingle\\\":{\\\"type\\\":\\\"shingle\\\",\\\"min_shingle_size\\\":2,\\\"max_shingle_size\\\":4,\\\"output_unigrams\\\":true},\\\"stemmer_ar\\\":{\\\"type\\\":\\\"stemmer\\\",\\\"language\\\":\\\"arabic\\\"}},\\\"normalizer\\\":{\\\"lowercase_normal\\\":{\\\"type\\\":\\\"custom\\\",\\\"filter\\\":[\\\"lowercase\\\"]}},\\\"analyzer\\\":{\\\"default\\\":{\\\"tokenizer\\\":\\\"standard\\\",\\\"filter\\\":[\\\"standard\\\",\\\"lowercase\\\",\\\"porter_stem\\\"],\\\"char_filter\\\":[\\\"special_char_replace_filter\\\"]},\\\"default_ar\\\":{\\\"filter\\\":[\\\"standard\\\",\\\"stemmer_ar\\\"],\\\"type\\\":\\\"custom\\\",\\\"tokenizer\\\":\\\"standard\\\"},\\\"shingle_analyzer_ar\\\":{\\\"type\\\":\\\"custom\\\",\\\"tokenizer\\\":\\\"standard\\\",\\\"filter\\\":[\\\"standard\\\",\\\"stemmer_ar\\\",\\\"shingle\\\"]},\\\"shingle_analyzer\\\":{\\\"type\\\":\\\"custom\\\",\\\"tokenizer\\\":\\\"standard\\\",\\\"filter\\\":[\\\"standard\\\",\\\"lowercase\\\",\\\"porter_stem\\\",\\\"shingle\\\"],\\\"char_filter\\\":[\\\"special_char_replace_filter\\\"]},\\\"keyword_analyzer\\\":{\\\"type\\\":\\\"custom\\\",\\\"tokenizer\\\":\\\"keyword\\\",\\\"filter\\\":[\\\"lowercase\\\"]},\\\"whitespace_analyzer\\\":{\\\"type\\\":\\\"custom\\\",\\\"tokenizer\\\":\\\"whitespace\\\",\\\"filter\\\":[\\\"lowercase\\\"]}}}}}";
         System.out.println(str1.length());
         System.out.println(str1.getBytes().length);
-        System.out.println("123");
+        System.out.println("1234");
+        
+        ///
+        //
     }
 
 }
