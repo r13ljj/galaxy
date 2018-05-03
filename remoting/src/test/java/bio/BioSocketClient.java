@@ -1,7 +1,7 @@
 package bio; /**
  * <pre>
  *
- *  File: bio.SocketClient.java
+ *  File: bio.BioSocketClient.java
  *
  *  Copyright (c) 2018, globalegrow.com All Rights Reserved.
  *
@@ -24,13 +24,13 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.URL;
 
-public class SocketClient {
+public class BioSocketClient {
     // 搭建客户端
     public static void main(String[] args) throws IOException {
         try {
             // 1、创建客户端Socket，指定服务器地址和端口
             // Socket socket=new Socket("127.0.0.1",5200);
-            Socket socket = new Socket("10.40.2.135", 53311);
+            Socket socket = new Socket("10.40.2.135", 12248);
             System.out.println("客户端启动成功");
             // 2、获取输出流，向服务器端发送信息
             // 向本机的52000端口发出客户请求
@@ -51,7 +51,7 @@ public class SocketClient {
                 // 刷新输出流，使Server马上收到该字符串
                 System.out.println("Client:" + readline);
                 // 在系统标准输出上打印读入的字符串
-                System.out.println("Server:" + in.readLine());
+                //System.out.println("Server:" + in.readLine());
                 // 从Server读入一字符串，并打印到标准输出上
                 readline = br.readLine(); // 从系统标准输入读入一字符串
             } // 继续循环

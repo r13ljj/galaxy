@@ -3,7 +3,7 @@ package bio;
 /**
  * <pre>
  *
- *  File: SocketServer.java
+ *  File: BioSocketServer.java
  *
  *  Copyright (c) 2018, globalegrow.com All Rights Reserved.
  *
@@ -16,5 +16,5 @@ package bio;
  *
  * </pre>
  */
-public class SocketServer {
+public class BioSocketServer {
 }
