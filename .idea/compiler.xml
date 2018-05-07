@@ -26,7 +26,7 @@
       <module name="log" target="1.5" />
       <module name="monitor" target="1.5" />
       <module name="registry" target="1.5" />
-      <module name="remoting" target="1.5" />
+      <module name="remoting" target="8" />
       <module name="rpc" target="1.5" />
     </bytecodeTargetLevel>
   </component>

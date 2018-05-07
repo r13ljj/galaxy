@@ -129,7 +129,8 @@ public class HexString {
         System.out.println(str1.getBytes().length);
         System.out.println("123");
         System.out.println("4565xx");
-        System.out.println(2 << (16-1));
+        System.out.println(2 << (16-1));//tcp client port unsigned short=2byte
+        System.out.println(2 << 48);//max tcp server
     }
 
 }
