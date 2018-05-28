@@ -43,7 +43,7 @@ public class BioSocketClient {
             // 由Socket对象得到输入流，并构造相应的BufferedReader对象
             String readline;
             readline = br.readLine(); // 从系统标准输入读入一字符串
-            while (!readline.equals("end")) {
+            while (!readline.equalDs("end")) {
                 // 若从标准输入读入的字符串为 "end"则停止循环
                 write.println(readline);
                 // 将从系统标准输入读入的字符串输出到Server
