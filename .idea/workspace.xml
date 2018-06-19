@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="add log module">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitor/monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/monitor/monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remoting/remoting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/remoting/remoting.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -35,8 +29,8 @@
       <file leaf-file-name="GalaxyAgent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="47" />
+            <state relative-caret-position="690">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,7 +281,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1040" />
@@ -678,7 +672,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="7" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1043,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="47" />
+        <state relative-caret-position="690">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
