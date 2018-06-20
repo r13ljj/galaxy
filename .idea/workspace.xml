@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="add log module">
+      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
@@ -26,41 +26,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GalaxyAgent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GalaxyAgent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="138">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractLoadBalance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/main/java/com/jonex/dss/cluster/loadbalance/AbstractLoadBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadBalance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/main/java/com/jonex/dss/cluster/loadbalance/LoadBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadBalanceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2426">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4659#4673#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
+                <element signature="e#3456#3457#0" expanded="true" />
+                <element signature="e#3499#3500#0" expanded="true" />
+                <element signature="e#3541#3542#0" expanded="true" />
+                <element signature="e#3600#3601#0" expanded="true" />
+                <element signature="e#3654#3655#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstrumentationImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
+      <file leaf-file-name="ConsistentHashTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="-23">
+              <caret line="149" column="53" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#2830#2831#0" expanded="true" />
+                <element signature="e#2886#2887#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instrumentation.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/instrument/Instrumentation.java">
+      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="76" column="59" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="59" />
+            <state relative-caret-position="275">
+              <caret line="970" column="33" selection-start-line="970" selection-start-column="26" selection-end-line="970" selection-end-column="33" />
+              <folding>
+                <element signature="e#35205#35206#0" expanded="true" />
+                <element signature="e#35250#35251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/main/resources/META-INF/MANIFEST.MF">
+      <file leaf-file-name="MessageDigest.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/security/MessageDigest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="6" />
+            <state relative-caret-position="198">
+              <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -68,7 +132,7 @@
       <file leaf-file-name="AttachTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agent/src/test/java/AttachTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="299">
               <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,42 +150,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualMachine.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/lib/tools.jar!/com/sun/tools/attach/VirtualMachine.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2001">
-              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotSpotVirtualMachine.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/lib/tools.jar!/sun/tools/attach/HotSpotVirtualMachine.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowsVirtualMachine.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/lib/tools.jar!/sun/tools/attach/WindowsVirtualMachine.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassFileTransformer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/instrument/ClassFileTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -133,9 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>a new client</find>
-      <find>start</find>
-      <find>ObjectName</find>
       <find>DssEventExecutor999</find>
       <find>registed</find>
       <find>624</find>
@@ -163,6 +188,9 @@
       <find>run()</find>
       <find>eventloopgroup</find>
       <find>getBytesFromFile</find>
+      <find>VIRTUAL_NODE_NUM</find>
+      <find>MurmurHash</find>
+      <find>MD5</find>
     </findStrings>
     <dirStrings>
       <dir>E:\workspace\galaxy</dir>
@@ -180,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/log/src/test/java/MyApp.java" />
-        <option value="$PROJECT_DIR$/log/src/test/java/flume/avro/MyApp.java" />
         <option value="$PROJECT_DIR$/log/src/main/resources/flume.properties" />
         <option value="$PROJECT_DIR$/log/src/main/resources/flume-secure.properties" />
         <option value="$PROJECT_DIR$/log/src/test/java/MySecureApp.java" />
@@ -231,6 +257,8 @@
         <option value="$PROJECT_DIR$/agent/src/test/java/AttachTest.java" />
         <option value="$PROJECT_DIR$/agent/pom.xml" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java" />
+        <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" />
+        <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java" />
       </list>
     </option>
   </component>
@@ -296,7 +324,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,46 +354,66 @@
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
               <item name="agent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -374,27 +421,28 @@
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty:3.7.0.Final" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ClassFileTransformer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/instrument/ClassFileTransformer.java&#10;Channel*init&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;ChannelFuture&#9;PSI&#9;JAVA://io.netty.channel.ChannelFuture&#10;TcpTransport&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/transport/TcpTransport.java&#10;TcpTransportChannel&#9;PSI&#9;JAVA://org.elasticsearch.transport.TcpTransportChannel&#10;RequestHandlerRegistry&#9;PSI&#9;JAVA://org.elasticsearch.transport.RequestHandlerRegistry&#10;AbstractSearchAsyncAction&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/AbstractSearchAsyncAction.java&#10;FetchSearchPhase&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/FetchSearchPhase.java&#10;Hexs&#9;FILE&#9;file://E:/workspace/galaxy/remoting/src/test/java/HexString.java&#10;Short&#9;PSI&#9;JAVA://java.lang.Short&#10;compositechannel&#9;PSI&#9;JAVA://org.jboss.netty.buffer.CompositeChannelBuffer&#10;AbstractChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.AbstractChannelBuffer&#10;ByteBuf&#9;FILE&#9;jar://C:/Users/Lijunjun/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/ByteBuf.class&#10;compositeBytebuf&#9;PSI&#9;JAVA://io.netty.buffer.CompositeByteBuf&#10;ChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.ChannelBuffer&#10;FileRegion&#9;PSI&#9;JAVA://org.jboss.netty.channel.FileRegion&#10;Socket&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/net/Socket.class&#10;nio&#9;PSI&#9;JAVA://nio.NioSocketClient&#10;SocketDispatcher&#9;PSI&#9;JAVA://sun.nio.ch.SocketDispatcher&#10;FileDispatcherImpl&#9;PSI&#9;JAVA://sun.nio.ch.FileDispatcherImpl&#10;SocketChann&#9;PSI&#9;JAVA://java.nio.channels.SocketChannel&#10;AtomicInt&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;AtomicInter&#9;null&#9;null&#10;FileChannel&#9;PSI&#9;JAVA://org.apache.flume.channel.file.FileChannel" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_77/lib/tools.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty-study" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -424,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.mvn-agent">
+  <component name="RunManager" selected="Application.ConsistentHashTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -432,6 +480,17 @@
       <option name="MAIN_CLASS_NAME" value="AttachTest" />
       <module name="agent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ConsistentHashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jonex.dss.cluster.loadbalance.ConsistentHashTest" />
+      <module name="cluster" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jonex.dss.cluster.loadbalance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="HexString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HexString" />
@@ -442,18 +501,6 @@
       <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <module name="agent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="UDPEchoClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udp.UDPEchoClientTest" />
-      <module name="remoting" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 helloworld" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="udp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="UDPEchoServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udp.UDPEchoServerTest" />
@@ -573,19 +620,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.mvn-agent" />
-      <item itemvalue="Application.UDPEchoClientTest" />
       <item itemvalue="Application.UDPEchoServerTest" />
       <item itemvalue="Application.HexString" />
       <item itemvalue="Application.ShopTest" />
       <item itemvalue="Application.AttachTest" />
+      <item itemvalue="Application.ConsistentHashTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsistentHashTest" />
         <item itemvalue="Application.AttachTest" />
         <item itemvalue="Application.ShopTest" />
         <item itemvalue="Application.HexString" />
         <item itemvalue="Application.UDPEchoServerTest" />
-        <item itemvalue="Application.UDPEchoClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -597,24 +644,6 @@
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Lijunjun\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\galaxy\log" />
-          <option name="myCopyRoot" value="E:\workspace\galaxy\log" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\workspace\galaxy\log" />
-          <option name="myCopyRoot" value="E:\workspace\galaxy\log" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -677,30 +706,30 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5191898" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32960597" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" visible="true" weight="0.31699347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" weight="0.5348584" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29847494" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29847494" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.09904154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.16187434" />
       <window_info id="Structure" order="1" sideWeight="0.5013889" side_tool="true" weight="0.15298508" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48081023" weight="0.35620916" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.16773163" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -749,60 +778,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/registry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/CompositeByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="127" column="38" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Short.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remoting/src/test/java/nio/PooledNioSocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2913#2914#0" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/ByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5083">
-          <caret line="261" column="19" selection-start-line="261" selection-start-column="19" selection-end-line="261" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/util/ResourceLeakDetector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/util/internal/SystemPropertyUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -1020,7 +995,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/test/java/AttachTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="299">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1037,10 +1012,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/main/java/com/jonex/dss/cluster/loadbalance/AbstractLoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/main/java/com/jonex/dss/cluster/loadbalance/LoadBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="970" column="33" selection-start-line="970" selection-start-column="26" selection-end-line="970" selection-end-column="33" />
+          <folding>
+            <element signature="e#35205#35206#0" expanded="true" />
+            <element signature="e#35250#35251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2426">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4659#4673#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3456#3457#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3600#3601#0" expanded="true" />
+            <element signature="e#3654#3655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="149" column="53" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2886#2887#0" expanded="true" />
           </folding>
         </state>
       </provider>
