@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="add log module">
-      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="LoadBalanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2426">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="-4243">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4659#4673#0" expanded="true" />
@@ -79,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsistentHashTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MurmurHash3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsistentHashTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="149" column="53" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
+            <state relative-caret-position="412">
+              <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
@@ -103,6 +111,15 @@
                 <element signature="e#2830#2831#0" expanded="true" />
                 <element signature="e#2886#2887#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="430" column="39" selection-start-line="430" selection-start-column="22" selection-end-line="430" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -129,27 +146,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttachTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/src/test/java/AttachTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -161,9 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DssEventExecutor999</find>
-      <find>registed</find>
-      <find>624</find>
       <find>DssEventExecutor3</find>
       <find>MBeanServer</find>
       <find>DssEventExecutor</find>
@@ -191,6 +184,9 @@
       <find>VIRTUAL_NODE_NUM</find>
       <find>MurmurHash</find>
       <find>MD5</find>
+      <find>threadlocal</find>
+      <find>getEntryAfterMiss</find>
+      <find>Connections</find>
     </findStrings>
     <dirStrings>
       <dir>E:\workspace\galaxy</dir>
@@ -208,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/log/src/main/resources/flume.properties" />
         <option value="$PROJECT_DIR$/log/src/main/resources/flume-secure.properties" />
         <option value="$PROJECT_DIR$/log/src/test/java/MySecureApp.java" />
         <option value="$PROJECT_DIR$/log/src/test/java/avro/MyApp.java" />
@@ -259,6 +254,7 @@
         <option value="$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java" />
         <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" />
         <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java" />
+        <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java" />
       </list>
     </option>
   </component>
@@ -310,10 +306,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="264" />
+    <option name="y" value="236" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -441,7 +437,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ClassFileTransformer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/instrument/ClassFileTransformer.java&#10;Channel*init&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;ChannelFuture&#9;PSI&#9;JAVA://io.netty.channel.ChannelFuture&#10;TcpTransport&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/transport/TcpTransport.java&#10;TcpTransportChannel&#9;PSI&#9;JAVA://org.elasticsearch.transport.TcpTransportChannel&#10;RequestHandlerRegistry&#9;PSI&#9;JAVA://org.elasticsearch.transport.RequestHandlerRegistry&#10;AbstractSearchAsyncAction&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/AbstractSearchAsyncAction.java&#10;FetchSearchPhase&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/FetchSearchPhase.java&#10;Hexs&#9;FILE&#9;file://E:/workspace/galaxy/remoting/src/test/java/HexString.java&#10;Short&#9;PSI&#9;JAVA://java.lang.Short&#10;compositechannel&#9;PSI&#9;JAVA://org.jboss.netty.buffer.CompositeChannelBuffer&#10;AbstractChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.AbstractChannelBuffer&#10;ByteBuf&#9;FILE&#9;jar://C:/Users/Lijunjun/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/ByteBuf.class&#10;compositeBytebuf&#9;PSI&#9;JAVA://io.netty.buffer.CompositeByteBuf&#10;ChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.ChannelBuffer&#10;FileRegion&#9;PSI&#9;JAVA://org.jboss.netty.channel.FileRegion&#10;Socket&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/net/Socket.class&#10;nio&#9;PSI&#9;JAVA://nio.NioSocketClient&#10;SocketDispatcher&#9;PSI&#9;JAVA://sun.nio.ch.SocketDispatcher&#10;FileDispatcherImpl&#9;PSI&#9;JAVA://sun.nio.ch.FileDispatcherImpl&#10;SocketChann&#9;PSI&#9;JAVA://java.nio.channels.SocketChannel&#10;AtomicInt&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;AtomicInter&#9;null&#9;null&#10;FileChannel&#9;PSI&#9;JAVA://org.apache.flume.channel.file.FileChannel" />
+    <property name="SearchEverywhereHistoryKey" value="ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;ClassFileTransformer&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/instrument/ClassFileTransformer.java&#10;Channel*init&#9;PSI&#9;JAVA://io.netty.channel.ChannelInitializer&#10;ChannelFuture&#9;PSI&#9;JAVA://io.netty.channel.ChannelFuture&#10;TcpTransport&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/transport/TcpTransport.java&#10;TcpTransportChannel&#9;PSI&#9;JAVA://org.elasticsearch.transport.TcpTransportChannel&#10;RequestHandlerRegistry&#9;PSI&#9;JAVA://org.elasticsearch.transport.RequestHandlerRegistry&#10;AbstractSearchAsyncAction&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/AbstractSearchAsyncAction.java&#10;FetchSearchPhase&#9;FILE&#9;file://E:/workspace/galaxy/config/src/main/java/org/elasticsearch/action/search/FetchSearchPhase.java&#10;Hexs&#9;FILE&#9;file://E:/workspace/galaxy/remoting/src/test/java/HexString.java&#10;Short&#9;PSI&#9;JAVA://java.lang.Short&#10;compositechannel&#9;PSI&#9;JAVA://org.jboss.netty.buffer.CompositeChannelBuffer&#10;AbstractChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.AbstractChannelBuffer&#10;ByteBuf&#9;FILE&#9;jar://C:/Users/Lijunjun/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/buffer/ByteBuf.class&#10;compositeBytebuf&#9;PSI&#9;JAVA://io.netty.buffer.CompositeByteBuf&#10;ChannelBuffer&#9;PSI&#9;JAVA://org.jboss.netty.buffer.ChannelBuffer&#10;FileRegion&#9;PSI&#9;JAVA://org.jboss.netty.channel.FileRegion&#10;Socket&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/java/net/Socket.class&#10;nio&#9;PSI&#9;JAVA://nio.NioSocketClient&#10;SocketDispatcher&#9;PSI&#9;JAVA://sun.nio.ch.SocketDispatcher&#10;FileDispatcherImpl&#9;PSI&#9;JAVA://sun.nio.ch.FileDispatcherImpl&#10;SocketChann&#9;PSI&#9;JAVA://java.nio.channels.SocketChannel&#10;AtomicInt&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;AtomicInter&#9;null&#9;null&#10;FileChannel&#9;PSI&#9;JAVA://org.apache.flume.channel.file.FileChannel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty-study" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -712,12 +708,13 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5191898" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32960597" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" visible="true" weight="0.31699347" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" weight="0.31699347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.29847494" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.16187434" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3293348" />
       <window_info id="Structure" order="1" sideWeight="0.5013889" side_tool="true" weight="0.15298508" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -729,7 +726,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.3293348" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -778,20 +774,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/util/internal/SystemPropertyUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.0.36.Final/netty-all-4.0.36.Final.jar!/io/netty/util/internal/ObjectUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/remoting/src/test/java/HexString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1052,29 +1034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2426">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4659#4673#0" expanded="true" />
-            <element signature="e#3327#3328#0" expanded="true" />
-            <element signature="e#3364#3365#0" expanded="true" />
-            <element signature="e#3412#3413#0" expanded="true" />
-            <element signature="e#3456#3457#0" expanded="true" />
-            <element signature="e#3499#3500#0" expanded="true" />
-            <element signature="e#3541#3542#0" expanded="true" />
-            <element signature="e#3600#3601#0" expanded="true" />
-            <element signature="e#3654#3655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="149" column="53" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
+        <state relative-caret-position="412">
+          <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
@@ -1094,6 +1057,39 @@
             <element signature="e#2830#2831#0" expanded="true" />
             <element signature="e#2886#2887#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="430" column="39" selection-start-line="430" selection-start-column="22" selection-end-line="430" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4243">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4659#4673#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+            <element signature="e#3456#3457#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3600#3601#0" expanded="true" />
+            <element signature="e#3654#3655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
