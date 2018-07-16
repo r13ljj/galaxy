@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="799ed817-8e34-41e4-83f6-bb0b300b1738" name="Default" comment="add log module">
-      <change afterPath="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadBalanceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoadBalanceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4243">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="-1403">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4659#4673#0" expanded="true" />
@@ -74,15 +73,6 @@
                 <element signature="e#3600#3601#0" expanded="true" />
                 <element signature="e#3654#3655#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MurmurHash3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -157,8 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DssEventExecutor3</find>
-      <find>MBeanServer</find>
       <find>DssEventExecutor</find>
       <find>connection</find>
       <find>connect</find>
@@ -187,6 +175,8 @@
       <find>threadlocal</find>
       <find>getEntryAfterMiss</find>
       <find>Connections</find>
+      <find>ServerConnection</find>
+      <find>serverConnections</find>
     </findStrings>
     <dirStrings>
       <dir>E:\workspace\galaxy</dir>
@@ -252,9 +242,9 @@
         <option value="$PROJECT_DIR$/agent/src/test/java/AttachTest.java" />
         <option value="$PROJECT_DIR$/agent/pom.xml" />
         <option value="$PROJECT_DIR$/agent/src/main/java/com/jonex/galaxy/agent/GalaxyAgent.java" />
-        <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" />
         <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/ConsistentHashTest.java" />
         <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java" />
+        <option value="$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java" />
       </list>
     </option>
   </component>
@@ -698,7 +688,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32934782" />
@@ -710,7 +699,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32960597" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48081023" weight="0.31699347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29847494" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29847494" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.16187434" />
@@ -1067,10 +1056,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3128">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/LoadBalanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4243">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="-1403">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4659#4673#0" expanded="true" />
@@ -1083,13 +1079,6 @@
             <element signature="e#3600#3601#0" expanded="true" />
             <element signature="e#3654#3655#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc/cluster/src/test/java/com/jonex/dss/cluster/loadbalance/MurmurHash3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
