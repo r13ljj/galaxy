@@ -23,6 +23,8 @@
         <module>remoting</module>
         <module>log</module>
         <module>agent</module>
+        <module>agent</module>
+        <module>log</module>
     </modules>
 
 
