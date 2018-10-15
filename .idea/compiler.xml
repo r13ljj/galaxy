@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="admin" />
+        <module name="agent" />
         <module name="cluster" />
         <module name="common" />
         <module name="config" />
@@ -19,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="admin" target="1.5" />
+      <module name="agent" target="1.8" />
       <module name="cluster" target="1.8" />
       <module name="common" target="1.5" />
       <module name="config" target="1.5" />
@@ -26,7 +28,7 @@
       <module name="log" target="1.5" />
       <module name="monitor" target="1.5" />
       <module name="registry" target="1.5" />
-      <module name="remoting" target="8" />
+      <module name="remoting" target="1.5" />
       <module name="rpc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
