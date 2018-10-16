@@ -14,7 +14,7 @@ import java.security.ProtectionDomain;
  */
 class Transformer implements ClassFileTransformer {
 
-    public static final String classNumberReturns2 = "E:\\workspace\\galaxy\\agent\\target\\classes\\com\\jonex\\galaxy\\agent\\Shop.class";
+    public static final String classNumberReturns2 = "/Users/lijunjun/IdeaProjects/galaxy/agent/target/classes/com/jonex/galaxy/agent/Shop.class";
 
 
     public byte[] transform(ClassLoader l, String className, Class<?> c,

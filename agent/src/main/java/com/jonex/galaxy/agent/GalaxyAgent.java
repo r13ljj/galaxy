@@ -29,13 +29,13 @@ public class GalaxyAgent {
     }
 
 
-    /*public static void premain(String agentArgs, Instrumentation inst) throws UnmodifiableClassException, ClassNotFoundException {
+    public static void premain(String agentArgs, Instrumentation inst) throws UnmodifiableClassException, ClassNotFoundException {
         System.out.println("premain start, premain2:"+agentArgs);
-        //inst.addTransformer(new Transformer(), true);
+        inst.addTransformer(new Transformer(), true);
         ClassDefinition def = new ClassDefinition(Transformer.class, Transformer.getBytesFromFile(Transformer.classNumberReturns2));
         inst.redefineClasses(new ClassDefinition[] { def });
         System.out.println("redefineClasses success");
-    }*/
+    }
 
     public static void premain(String agentArgs){
         System.out.println("premain start, premain:"+agentArgs);

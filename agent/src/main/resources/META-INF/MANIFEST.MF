@@ -1,8 +1,6 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: 24.79-b02 (Oracle Corporation)
-Premain-Class: com.jonex.galaxy.agent.GalaxyAgent
-Agent-Class: com.jonex.galaxy.agent.GalaxyAgent
-Can-Redefine-Classes: true
-Can-Retransform-Classes: true
-Can-Set-Native-Method-Prefix: true
+Class-Path: /opt/mvnRepository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar
+Main-Class: com.jonex.galaxy.agent.login.UserService
+Premain-Class: com.jonex.galaxy.agent.login.Instrument

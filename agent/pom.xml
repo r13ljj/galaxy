@@ -11,10 +11,6 @@
 
     <artifactId>agent</artifactId>
 
-    <properties>
-        <JAVA_HOME>C:/Program Files/Java/jdk1.8.0_77</JAVA_HOME>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>jdk.tools</groupId>
@@ -22,6 +18,13 @@
             <version>1.8</version>
             <scope>system</scope>
             <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.23.1-GA</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

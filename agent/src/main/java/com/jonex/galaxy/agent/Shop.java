@@ -23,7 +23,8 @@ public class Shop {
     private static final Random RANDOM = new Random();
 
     public double getProductPrice(String product){
-        return RANDOM.nextDouble() * product.charAt(0) * (product.length() > 1 ? product.charAt(1) : 1d);
+        //return RANDOM.nextDouble() * product.charAt(0) * (product.length() > 1 ? product.charAt(1) : 1d);
+        return 999.8d;
     }
 
 }
